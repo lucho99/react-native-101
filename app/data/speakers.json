@@ -1,0 +1,345 @@
+[
+  {
+    "id": 1,
+    "speaker_image": "app/images/speakers/rod-vagg.jpg",
+    "speaker_name": "ROD VAGG",
+    "speaker_company": "NODESOURCE",
+    "speaker_bio": [
+      "Rod Vagg is Chief Node Officer at NodeSource and chair of the Node.js Technical Steering Committee (TSC). He spends most of his time working to keep the project moving forward and ensuring its governance puts its future in the hands of its users."
+    ],
+    "speaker_twiter": "https://twitter.com/rvagg",
+    "talks": [
+      "How the Node Project Works"
+    ]
+  },
+  {
+    "id": 2,
+    "speaker_image": "app/images/speakers/soledad-penades.jpg",
+    "speaker_name": "SOLEDAD PENADÉS",
+    "speaker_company": "MOZILLA",
+    "speaker_bio": [
+      "Sole has been building realtime stuff for longer than she can remember. She works at Mozilla, helping making the Web the best platform (in general) and the best platform for realtime (in particular). She writes demos to test and spread awareness about new features, often involving Web Audio, WebGL, GIFs and/or cats, and breaks various browsers and reports an unspeakable number of strange edge cases in the process, all in pursuit of a robust platform that is a joy to develop for."
+    ],
+    "speaker_twiter": "https://twitter.com/supersole",
+    "talks": [
+      "Real time front-end alchemy"
+    ]
+  },
+  {
+    "id": 3,
+    "speaker_image": "app/images/speakers/guillermo-rauch.png",
+    "speaker_name": "GUILLERMO RAUCH",
+    "speaker_company": "ZEIT",
+    "speaker_bio": [
+      "Guillermo Rauch is the CEO and founder of ▲ZEIT (https://zeit.co). Before, he was the CTO and co-founder of LearnBoost and Cloudup, acquired by WordPress.com in 2013. He's the creator of socket.io, one of the most popular JavaScript projects on GitHub."
+    ],
+    "speaker_twiter": "https://twitter.com/rauchg",
+    "talks": [
+      "Programming The JavaScript Future"
+    ]
+  },
+  {
+    "id": 4,
+    "speaker_image": "app/images/speakers/guy-bedford.jpg",
+    "speaker_name": "GUY BEDFORD",
+    "speaker_company": "",
+    "speaker_bio": [
+      "Guy is a software developer working as an independent consultant from Cape Town, South Africa. He is the creator and maintainer of SystemJS and jspm, which grew out of an exploration of ideas to improve package management for the browser."
+    ],
+    "speaker_twiter": "https://twitter.com/guybedford",
+    "talks": [
+      "Design Decisions in jspm"
+    ]
+  },
+  {
+    "id": 5,
+    "speaker_image": "app/images/speakers/patrik-kettner.jpg",
+    "speaker_name": "PATRICK KETTNER",
+    "speaker_company": "MICROSOFT EDGE",
+    "speaker_bio": [
+      "Patrick Kettner a web developer, hacker, and dad from Seattle. He is the lead maintainer of Modernizr, and a PM for Edge at Microsoft."
+    ],
+    "speaker_twiter": "https://twitter.com/patrickkettner",
+    "talks": [
+      "Building Graphical Command Line Applications in JavaScript"
+    ]
+  },
+  {
+    "id": 6,
+    "speaker_image": "app/images/speakers/irina-shestak.jpg",
+    "speaker_name": "IRINA SHESTAK",
+    "speaker_company": "",
+    "speaker_bio": [
+      "Irina is a software developer based in Vancouver, Canada. She is a spirited javascript and node enthusiast. Aside from enthusiasting about javascript, she a regular hiker out in the Rocky mountains, and a code mentor around Vancouver."
+    ],
+    "speaker_twiter": "https://twitter.com/_lrlna",
+    "talks": [
+      "Taking on Genetically Evolving Cellular Automata with JavaScript"
+    ]
+  },
+  {
+    "id": 7,
+    "speaker_image": "app/images/speakers/myles-borins.jpg",
+    "speaker_name": "MYLES BORINS",
+    "speaker_company": "IBM",
+    "speaker_bio": [
+      "Myles Borins is a developer, musician, artist, and inventor",
+      "He works for IBM spending most of his time contributing to the node.js ecosystem."
+    ],
+    "speaker_twiter": "https://twitter.com/thealphanerd",
+    "talks": [
+      "Node.js Releases, how do they work?"
+    ]
+  },
+  {
+    "id": 8,
+    "speaker_image": "app/images/speakers/ben-vinegar.jpg",
+    "speaker_name": "BEN VINEGAR",
+    "speaker_company": "SENTRY",
+    "speaker_bio": [
+      "Ben Vinegar is a front-end engineer based in San Francisco, and the co-author of Third-party JavaScript. He works at Sentry, a crash reporting platform that collects a billion of exceptions each month."
+    ],
+    "speaker_twiter": "https://twitter.com/bentlegen",
+    "talks": [
+      "Why Johnny can't collect browser errors"
+    ]
+  },
+  {
+    "id": 9,
+    "speaker_image": "app/images/speakers/alan-souza.jpg",
+    "speaker_name": "ALAN SOUZA",
+    "speaker_company": "HEWLETT PACKARD ENTERPRISE",
+    "speaker_bio": [
+      "Alan is a core contributor of Grommet. He works at Hewlett-Packard Enterprise and considers himself a full-stack Engineer. He enjoys the challenges around creating great user experiences for the Web."
+    ],
+    "speaker_twiter": "https://twitter.com/alansouzati",
+    "talks": [
+      "ReactJS: Tips and Tricks to create accessible SVG components"
+    ]
+  },
+  {
+    "id": 10,
+    "speaker_image": "app/images/speakers/clay-smith.jpg",
+    "speaker_name": "CLAY SMITH",
+    "speaker_company": "NEW RELIC",
+    "speaker_bio": [
+      "Clay is a Developer Advocate at New Relic in San Francisco. He has previously worked at different highly-scalable agile unicorn and narwhal B2B early-stage cloud startups as a senior software engineer. Clay wrote his first JavaScript in 1998 when he copied an example from a “DHTML for Dummies” book. He’s excited to speak at his first JSConfUY."
+    ],
+    "speaker_twiter": "https://twitter.com/smithclay",
+    "talks": [
+      "Code at the Speed of Light: Content Delivery Networks for JavaScripters"
+    ]
+  },
+  {
+    "id": 11,
+    "speaker_image": "app/images/speakers/ruth-john.png",
+    "speaker_name": "RUTH JOHN",
+    "speaker_company": "RUMYRASHEAD.COM",
+    "speaker_bio": [
+      "Ruth has been wireframing, designing and coding for over a decade. She works for a mobile company in the UK, as a technologist in the research and development department, where she advises the business on any new technology they may find beneficial."
+    ],
+    "speaker_twiter": "https://twitter.com/rumyra",
+    "talks": [
+      "Let’s talk about MIDI"
+    ]
+  },
+  {
+    "id": 12,
+    "speaker_image": "app/images/speakers/mike-taylor.png",
+    "speaker_name": "MIKE TAYLOR",
+    "speaker_company": "MOZILLA",
+    "speaker_bio": [
+      "Mike Taylor works as a Web Compatibility Engineer at Mozilla from his home in Austin, TX. Previously he worked at Opera Software doing similar things."
+    ],
+    "speaker_twiter": "https://twitter.com/miketaylr",
+    "talks": [
+      "Web Compatible JavaScript and CSS"
+    ]
+  },
+  {
+    "id": 13,
+    "speaker_image": "app/images/speakers/alejandro-oviedo.jpg",
+    "speaker_name": "ALEJANDRO OVIEDO",
+    "speaker_company": "NEARFORM",
+    "speaker_bio": [
+      "Alejandro is a developer who loves learning new things. He is passionate about education, electronics, open-source, and community-driven events. These days, he also helps organize NodeConf Argentina and a local Node.js meetup."
+    ],
+    "speaker_twiter": "https://twitter.com/a0viedo",
+    "talks": [
+      "The !future of Javascript"
+    ]
+  },
+  {
+    "id": 14,
+    "speaker_image": "app/images/speakers/matt-zeunert.jpg",
+    "speaker_name": "MATT ZEUNERT",
+    "speaker_company": "",
+    "speaker_bio": [
+      "Matt is an independent software developer. He loves making JavaScript apps and blogs about code readability."
+    ],
+    "speaker_twiter": "https://twitter.com/mattzeunert",
+    "talks": [
+      "Effective JavaScript Debugging with Chrome’s Developer Tools"
+    ]
+  },
+  {
+    "id": 15,
+    "speaker_image": "app/images/speakers/david-neal.jpg",
+    "speaker_name": "DAVID NEAL",
+    "speaker_company": "LEANKIT",
+    "speaker_bio": [
+      "David is a family man, musician, motorcyclist, developer, and Microsoft MVP living in Georgia, USA. Currently a Developer Advocate for LeanKit, he runs on a high-octane mixture of caffeine and bacon."
+    ],
+    "speaker_twiter": "https://twitter.com/reverentgeek",
+    "talks": [
+      "Cross-Platform Desktop Apps using Electron"
+    ],
+    "workshops": [
+      "Create an app using Electron"
+    ]
+  },
+  {
+    "id": 16,
+    "speaker_image": "app/images/speakers/matteo-figus.jpg",
+    "speaker_name": "MATTEO FIGUS",
+    "speaker_company": "OPENTABLE",
+    "speaker_bio": [
+      "Matteo Figus is an italian software engineer with 15 years of experience on writing code. Based in London, UK, he works for OpenTable; where he likes to write code, to test it, to deploy it and to monitor it. Main interests are node.js, C#, the open-source world, and the dev-ops movement."
+    ],
+    "speaker_twiter": "https://twitter.com/matteofigus",
+    "talks": [
+      "OpenComponents as microservices in the front-end world"
+    ]
+  },
+  {
+    "id": 17,
+    "speaker_image": "app/images/speakers/adrian-mugnolo.webp",
+    "speaker_name": "ADRIÁN MUGNOLO",
+    "speaker_company": "",
+    "speaker_bio": [
+      "Adrián has been doing web development for almost 20 years now. When not writing Ruby or JavaScript, you’ll find him snowboarding somewhere. An organizer of Montevideo’s Ember and Ruby meet-ups."
+    ],
+    "speaker_twiter": "https://twitter.com/xymbol",
+    "workshops": [
+      "Ember 2.0"
+    ]
+  },
+  {
+    "id": 18,
+    "speaker_image": "app/images/speakers/santiago-ferreira.png",
+    "speaker_name": "SANTIAGO FERREIRA",
+    "speaker_company": "WYEWORKS",
+    "speaker_bio": [
+      "Santiago is passionate about working with Ruby, JavaScript and open software. An avid reader of books on paper, he’s also interested in agile methodologies."
+    ],
+    "speaker_twiter": "https://twitter.com/san650",
+    "workshops": [
+      "Ember 2.0",
+      "Angular 2.0"
+    ]
+  },
+  {
+    "id": 18,
+    "speaker_image": "app/images/speakers/david-simons.jpg",
+    "speaker_name": "DAVID SIMONS",
+    "speaker_company": "",
+    "speaker_bio": [
+      "David is a tech consultant from London, working with clients (including the BBC and News International) by getting stuck into a range of problems across different tech stacks.​"
+    ],
+    "speaker_twiter": "https://twitter.com/SwamWithTurtles",
+    "talks": [
+      "Statistical Programming with JavaScript"
+    ]
+  },
+  {
+    "id": 19,
+    "speaker_image": " app/images/speakers/iran-reyes.png",
+    "speaker_name": "IRAN REYES",
+    "speaker_company": "JAM3",
+    "speaker_bio": [
+      "Lead Developer for Jam3. Passionate about all related with frontend, webdesign, UI, UX, perfomance, animations, algorithms and software architectures. Used to develop Windows Apps with .NET Family and webs backend code with C#, PHP, Python. After a while full focus on JS everywhere."
+    ],
+    "speaker_twiter": "https://twitter.com/iranfleitas",
+    "workshops": [
+      "Angular 2.0"
+    ]
+  },
+  {
+    "id": 20,
+    "speaker_image": "app/images/speakers/diego-cardozo.jpg",
+    "speaker_name": "DIEGO CARDOZO",
+    "speaker_company": "NETSUITE",
+    "speaker_bio": [
+      "Diego enjoys making things fast. He works at NetSuite as a Web Performance Engineer where he oversees the performance of over 200 e-commerce sites on a daily basis. He is also an avid runner and meetup speaker."
+    ],
+    "speaker_twiter": "https://twitter.com/diecard",
+    "workshops": [
+      "Performance testing and optimization"
+    ]
+  },
+  {
+    "id": 21,
+    "speaker_image": "app/images/speakers/raul-pino.png",
+    "speaker_name": "RAUL PINO",
+    "speaker_company": "",
+    "speaker_bio": [
+      "I'm a Computer Engineer, with more than 6 years of experience in web technologies. Nowadays Software Engineer at Axiom Zen, and former Grouponer. Full Stack developer on global scale projects, entrepreneur and awarded hackathon attendee."
+    ],
+    "speaker_twiter": "https://twitter.com/p1nox",
+    "talks": [
+      "Lateralus: A distributed relay system in JavaScript"
+    ]
+  },
+  {
+    "id": 21,
+    "speaker_image": "app/images/speakers/juan-caicedo.png",
+    "speaker_name": "JUAN CAICEDO",
+    "speaker_company": "SPANISHDICT",
+    "speaker_bio": [
+      "Juan is a Colombian-Canadian-American full-stack developer at SpanishDict.com. He loves helping new programmers through NodeSchoolDC and finds refactoring therapeutic. He lends a hand with www.oboejs.com."
+    ],
+    "speaker_twiter": "https://twitter.com/_juancaicedo",
+    "talks": [
+      "elm => javascript, How to Enjoy Functional Programming in ES5"
+    ]
+  },
+  {
+    "id": 22,
+    "speaker_image": "app/images/speakers/leonardo-val.jpg",
+    "speaker_name": "LEONARDO VAL",
+    "speaker_company": "",
+    "speaker_bio": [
+      "Leonardo Val is a full-time adjunct professor at the Catholic University of Uruguay. He is currently preparing his doctoral thesis on the use of artificial intelligence to support game design. Since 2013 he has been using JavaScript in different academic projects. He is passionate about programming and loves solving complex problems."
+    ],
+    "speaker_twiter": "https://twitter.com/creatartis",
+    "talks": [
+      "Scientific computing with JavaScript"
+    ]
+  },
+  {
+    "id": 23,
+    "speaker_image": "app/images/speakers/luis-cal.jpg",
+    "speaker_name": "LUIS CAL",
+    "speaker_company": "DIXTRA",
+    "speaker_bio": [
+      "Luis is a passionate front-end engineer with strong focus on performance in mobile devices. With vast experience working with web technologies, he is now co-founder and CTO at DIXTRA. He enjoys a good reading, music and football. In his spare time he likes to work on personal IoT projects based on NodeJS."
+    ],
+    "speaker_twiter": "https://twitter.com/_lucho99",
+    "workshops": [
+      "React Native 101"
+    ]
+  },
+  {
+    "id": 24,
+    "speaker_image": "app/images/speakers/federico-kereki.png",
+    "speaker_name": "FEDERICO KEREKI",
+    "speaker_company": "GLOBANT",
+    "speaker_bio": [
+      "Federico Kereki is an Uruguayan Systems Engineer, who has been working with computers since last century, and can still fondly remember FORTRAN and COBOL! His current interests include open source software, agile methodologies, and modern web development techniques. He is a Web UI Architect at Globant, and a professor at UDE. He has written a book on GWT, and several articles and booklets for diverse technical publications and web sites."
+    ],
+    "speaker_twiter": "https://twitter.com/fkereki",
+    "talks": [
+      "Isomorphic Universal Javascript"
+    ]
+  }
+]

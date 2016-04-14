@@ -1,0 +1,639 @@
+[
+  {
+    "id": "day_1",
+    "title": "FRIDAY 15TH, APRIL",
+    "talks": [
+      {
+        "id": 1,
+        "title": "REGISTRATION & BREAKFAST",
+        "start_time": "8:45",
+        "talk_type": "global"
+      },
+      {
+        "id": 2,
+        "title": "OPENING",
+        "start_time": "10:00",
+        "talk_type": "global"
+      },
+      {
+        "id": 3,
+        "title": "I ❤ MUSIC & THE WEB",
+        "start_time": "10:05",
+        "talk_type": "keynote",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "I love music since I can remember. I love to play the drums. I love to attend music festivals. I love to listen music on SoundCloud. But what I love the most is the Web, because it offers everything we need to be creative with music:",
+          {
+            "type": "bulleted_list",
+            "list": [
+              "Compose and produce music in the browser",
+              "Use external MIDI hardware like a Drumpad, mini Piano or DJ-Controller",
+              "Create real-time music visualizations",
+              "Perform a live show and interact with the audience"
+            ]
+          }
+        ],
+        "talk_bg_image": "images/schedule/adrian-mugnolo.jpg",
+        "speakers": [
+          {
+            "speaker_name": "TIM PIETRUSKY",
+            "speaker_image": "app/images/speakers/tim-pietrusky-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "THE !FUTURE OF JAVASCRIPT",
+        "start_time": "10:15",
+        "talk_type": "talk",
+        "talk_language": "SPANISH",
+        "talk_description": [
+          "I find myself often talking about the future of JavaScript (ES2016) and we don’t take the time to think of where it started and where we are now in retrospective. This last May, JavaScript turned 20 years old. We’re going to go through all the previous versions of EcmaScript making emphasis on the features of the specification that were missing until the very first one and simulating how it had been to work with JavaScript on 1996. Last, we’re going to talk about how 2015 has been an inflection point for the future specifications and how they are planned for future years.",
+        ],
+        "speakers": [
+          {
+            "speaker_name": "ALEJANDRO OVIEDO",
+            "speaker_image": "app/images/speakers/alejandro-oviedo-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "LET’S TALK ABOUT MIDI",
+        "start_time": "10:45",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "What do you think of when I say MIDI, bad computer music? Websites playing annoying background noise when you land on them? Then let me let you into a little secret, let me introduce and educate you into a new world of MIDI.",
+          "MIDI is at it’s simplest a data protocol and doesn’t have to be associated with audio at all. With the incredible amount of compatible hardware available to us, alongside the new Web MIDI API, we can start to have a lot of fun with a new world of hardware-powered web tech.",
+          "In this enticing and interactive presentation we’ll journey through the different MIDI specifications and look at other web APIs. From sound with General MIDI and the Web Audio API, to the MIDI Show Control, timing firework and fountain displays with the Web Animation API and on to the latest MIDI BLE standard, what a better way to demo the Web Bluetooth API.",
+          "The web is getting hardware-ready and this talk is a great beginning to those APIs at our fingertips. Think you know MIDI - think again there’s so much more to it."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "RUTH JOHN",
+            "speaker_image": "app/images/speakers/ruth-john-sm.png"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "REACT NATIVE 101",
+        "start_time": "10:45",
+        "talk_type": "workshop",
+        "talk_language": "SPANISH",
+        "talk_description": [
+          "This workshop will give an overview of how React Native works, show best practices and build together an iOS and Android App."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "LUIS CAL",
+            "speaker_image": "app/images/speakers/luis-cal-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "COFFEE BREAK",
+        "start_time": "11:15",
+        "talk_type": "global"
+      },
+      {
+        "id": 8,
+        "title": "CROSS-PLATFORM DESKTOP APPS USING ELECTRON",
+        "start_time": "11:35",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Would you like to leverage your HTML, CSS, and JavaScript skills to build cross-platform desktop applications? Electron is an open source application shell created by GitHub, designed to make building great desktop applications easy. You may have already experienced Electron using applications such as Atom, Slack, or Visual Studio Code. In this talk, you will learn its features, how to quickly get started, and tips from my experience building Electron applications."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "DAVID NEAL",
+            "speaker_image": "app/images/speakers/david-neal-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "EFFECTIVE JAVASCRIPT DEBUGGING WITH CHROME’S DEVELOPER TOOLS",
+        "start_time": "12:05",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Tracing a bug in a complex application can be a frustrating experience. Luckily the tools available for debugging JavaScript code have improved tremendously over the last few years. During this talk, we’ll investigate different bugs and use Chrome’s Developer Tools to find the code that’s causing the defect. This talk goes beyond the most well-known debugger features and demonstrates how to deal more effectively with asynchronous code, library code and unfamiliar codebases."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "MATT ZEUNERT",
+            "speaker_image": "app/images/speakers/matt-zeunert-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "LUNCH",
+        "start_time": "12:35",
+        "talk_type": "global"
+      },
+      {
+        "id": 11,
+        "title": "LATERALUS: A DISTRIBUTED RELAY SYSTEM IN JAVASCRIPT",
+        "start_time": "14:05",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "In today's social networking age, we often spend time posting insignificant life updates. But other times, emergency situations arise – times when you really need to get your message across.",
+          "In emergencies, however, we face obstacles such as low connectivity, blocked networks, no mobile data plans, or not having a smartphone at all. A solution to this problem is a service/platform that allows users to communicate with their relatives via social networks using SMS or BLE protocols. In other words, the ability to use internet without having direct access to it."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "RAUL PINO",
+            "speaker_image": "app/images/speakers/raul-pino-sm.png"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "REAL TIME FRONT-END ALCHEMY",
+        "start_time": "14:35",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "As new features are added to the Web platform, the kind of experiences we can build become amazingly interactive and immersive: a huge leap forward from the static document based web of yore.",
+          "Nowadays we can access webcams and play 3D audio and graphics, all in real time and in the browser, but there was a missing piece: capturing and encoding! Most solutions involved either sending data to servers or porting C++ encoders to JavaScript, none of which were particularly efficient or desirable for privacy or performance reasons.",
+          "Thankfully there is a better way: the new and shiny MediaCapture API, and in this talk you will learn all about it. Streams will be no strangers to you anymore, and you might even be tempted to cross a few of them---just for fun!"
+        ],
+        "speakers": [
+          {
+            "speaker_name": "SOLEDAD PENADÉS",
+            "speaker_image": "app/images/speakers/soledad-penades-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "ANGULAR 2.0",
+        "start_time": "14:35",
+        "talk_type": "workshop",
+        "talk_language": "SPANISH",
+        "talk_description": [
+          "Angular 2 is the newest version written from scratch. It aims to stay updated with the latest trending and closest to the standards. It has a strong focus on web components, server rendering, unidirectional workflow, between others.",
+          "The workshop's goal is to learn the basic concepts behind Angular 2 creating a small sample application. With this sample application you will see many of the core features needed to learn and starting working with Angular 2. Also you will see more advanced feature at the end of the workshop to demonstrate the potentials of the new version of the well known framework.",
+          "Some of the topics that you will see are: Project setup and structure, templates and data binding, routing, components, testing, animations, server communication.",
+          "We are already waiting for you!"
+        ],
+        "speakers": [
+          {
+            "speaker_name": "SANTIAGO FERREIRA",
+            "speaker_image": "app/images/speakers/santiago-ferreira-sm.png"
+          },
+          {
+            "speaker_name": "IRAN REYES",
+            "speaker_image": "app/images/speakers/iran-reyes-sm.png"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "COFFEE BREAK",
+        "start_time": "15:05",
+        "talk_type": "global"
+      },
+      {
+        "id": 15,
+        "title": "WHY JOHNNY CAN'T COLLECT BROWSER ERRORS",
+        "start_time": "15:25",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "If an error occurs on your website, and you weren't there to log it, did it happen?",
+          "Well, yes. It did. But even if you decided to start logging such errors, you'd learn something really quickly: logging JavaScript errors is hard.",
+          "In this talk, I'll take attendees through the state of client-side JavaScript error logging in 2016. We'll cover topics like:",
+          {
+            "type": "bulleted_list",
+            "list": [
+              "window.onerror – how it works, in what browsers, and what happens when it doesn't (work)",
+              "why you still have to use try/catch in some places",
+              "the Error object",
+              "extracting and normalizing stack traces (because they're different in every browser, ouch!)",
+              "why NodeJS has it easy!",
+              "frameworks and global error handlers",
+              "V8's StackTrace API",
+              "3rd-party libraries to help you: TraceKit, Stacktrace.JS"
+            ]
+          },
+          "At the end of this talk, you'll have all the information you need to get started logging your own client-side errors. And even if you use a 3rd-party service/client library to do it for you instead, you'll have a better handle on how those tools work under the hood."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "BEN VINEGAR",
+            "speaker_image": "app/images/speakers/ben-vinegar-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "title": "TAKING ON GENETICALLY EVOLVING CELLULAR AUTOMATA WITH JAVASCRIPT",
+        "start_time": "15:55",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Alright, that's a mouthful. Let's break it down.",
+          {
+            "type": "numbered_list",
+            "list": [
+              "We will be looking at cellular automata. A cellular automata is a set of units governed with very simple rules. These units make up a complex system, or a model.",
+              "We can train cellular automata to genetically evolve, making themselves better overtime. We can make them adhere to a set of rules that would make the system reach a certain outcome at the end of N generations. We can even use these concepts in the wild.",
+              "We will be doing it all with JavaScript."
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "speaker_name": "IRINA SHESTAK",
+            "speaker_image": "app/images/speakers/irina-shestak-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "title": "COFFEE BREAK",
+        "start_time": "16:25",
+        "talk_type": "global"
+      },
+      {
+        "id": 18,
+        "title": "OPENCOMPONENTS AS MICROSERVICES IN THE FRONT-END WORLD",
+        "start_time": "16:45",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Writing front-end code today is very challenging when you have to be resilient and robust in a big corporation. Working on a website that involves dozens of engineers based in three different continents, I learned that the complexity lies not only within the code itself. Allowing people to develop new features and deploy the code multiple times a day, keeping it up and running, is hard to achieve: we want small teams to be independent and not to interfere each other, in order to be quick and happy, but we also want to optimise cooperation when it is needed.",
+          "In the front-end world components are very small units of code providing application functionality that are all connected in order to become a web-site.",
+          "During this talk I’m going to speak about how we tried to approach to components at OpenTable. Following the SOA principles, we tried to elevate components as services, in order to make engineers able to create and consume them via clear and well-defined contracts and interfaces. This allowed us to put in place the infrastructure to optimise testing and to have hundreds of changes live every day without conflicts."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "MATTEO FIGUS",
+            "speaker_image": "app/images/speakers/matteo-figus-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "title": "PROGRAMMING THE JAVASCRIPT FUTURE",
+        "start_time": "17:15",
+        "talk_type": "keynote",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "JavaScript first enabled the enrichment of website interaction. It made its first appearance as tiny snippets of code that lived inside HTML attributes.",
+          {
+            "type": "code",
+            "list": [
+              "<a href=\"#\" onmouseover=\"this.bgColor='gold'\"></a>"
+            ]
+          },
+          "It went on to enable -unprecedentedly- a new generation of rich applications (like Gmail) that improved on Desktop counterparts (Outlook).",
+          "The web and mobile web are now decisively JavaScript-driven.",
+          "With Node.JS, JavaScript entered the server. It's now the fastest-growing OSS project and community. With Electron, JavaScript entered the OS. Applications like Atom and Slack are entirely JavaScript-powered. With Progressive Web Apps, React Native and NativeScript, JavaScript's entering mobile. Based on its track record, I certainly wouldn't bet against it.",
+          "JavaScript is the language that unifies technologies. This talk will explore how its future might look a lot like its beginnings: short snippets of code. Or how the goal of JavaScript is to write very little JavaScript."
+        ],
+        "talk_bg_image": "app/images/schedule/guillermo-rauch-bg.png",
+        "speakers": [
+          {
+            "speaker_name": "GUILLERMO RAUCH",
+            "speaker_image": "app/images/speakers/guillermo-rauch-sm.png"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "title": "CLOSE",
+        "start_time": "18:00",
+        "talk_type": "global",
+        "talk_description": "Closing the 1st day at Shannon Irish Pub",
+      },
+      {
+        "id": 21,
+        "start_time": "19:20",
+        "talk_type": "blank"
+      },
+      {
+        "id": 22,
+        "title": "DRINKUP!",
+        "start_time": "21:00",
+        "talk_type": "global"
+      }
+    ]
+  },
+  {
+    "id": "day_2",
+    "title": "SATURDAY 16TH, APRIL",
+    "talks": [
+      {
+        "id": 23,
+        "title": "REGISTRATION & BREAKFAST",
+        "start_time": "9:00",
+        "talk_type": "global"
+      },
+      {
+        "id": 24,
+        "title": "DESIGN DECISIONS IN JSPM",
+        "start_time": "10:00",
+        "talk_type": "keynote",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "This talk will explain some of the architectural ideas behind jspm. Most JavaScript module tools provide front-end build workflows based on top of the NodeJS module system. We will cover how jspm approaches these same workflows from a browser module loader perspective and how this approach can also deal other common tooling problems related to package and module management."
+        ],
+        "talk_bg_image": "app/images/schedule/guy-bedford-bg.jpg",
+        "speakers": [
+          {
+            "speaker_name": "GUY BEDFORD",
+            "speaker_image": "app/images/speakers/guy-bedford-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "title": "EMBER 2.0",
+        "start_time": "10:00",
+        "talk_type": "workshop",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "So, you’ve heard about Ember. You know it’s the framework for ambitious web applications. But somehow you’ve never found the time to try it for yourself. Look no further! A new workshop, presented by Montevideo meet-up organizers Adrián Mugnolo and Santiago Ferreira, will guide you through the concepts and practical steps required to build a simple application using Ember 2.",
+          "Using a variety of coding activities, the workshop will cover the following topics: Ember CLI project setup and structure, templates and data binding, computed properties, routing, actions, components, add-ons, Ember Data, testing, and deployment. Don’t forget to bring your own computer! During the workshop, a handful of experienced embereños will be answering questions and helping with any issues you might encounter. Caffeine in various forms will be provided!",
+          "We’re interested in your continued development so, once the conference is over, we’ll be providing ongoing support through a dedicated Slack channel for all attendees."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "SANTIAGO FERREIRA",
+            "speaker_image": "app/images/speakers/santiago-ferreira-sm.png"
+          },
+          {
+            "speaker_name": "ADRIÁN MUGNOLO",
+            "speaker_image": "app/images/speakers/adrian-mugnolo-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "title": "STATISTICAL PROGRAMMING WITH JAVASCRIPT",
+        "start_time": "10:40",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Almost every application needs data to function - and if you don't know how to be nice to your data, then things will start to go wrong. This talk aims to convince JavaScript developers that they do need to care about statistics, and then talk about how to do so. We look at some theory and lots of case studies and real-world advice to deal with a range of scenarios.",
+          "The talk aims to touch on the entire data life cycle: We'll dive into data modelling and how the shape and size of your data affects your architecture, and how to build these architectures using JavaScript. Once the data is in the front-end, we'll touch on the wide range of libraries that allows your code to react based on the data, and the wrappers on top that aid visualisation and readability."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "DAVID SIMONS",
+            "speaker_image": "app/images/speakers/david-simons-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "title": "COFFEE BREAK",
+        "start_time": "11:10",
+        "talk_type": "global"
+      },
+      {
+        "id": 28,
+        "title": "ELM => JAVASCRIPT, HOW TO ENJOY FUNCTIONAL PROGRAMMING IN ES5",
+        "start_time": "11:30",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Easier debugging, improved testability, simpler code. All these are great benefits of the functional programming encouraged by the Elm programming language. But what if you could get these same benefits in your plain old javascript code! This talk will introduce developers to the key concepts of functional programming as facilitated by Elm, and their counterparts in ES5. By the end of the talk, developers will know how to how write functional JS code with all the benefits of Elm code."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "JUAN CAICEDO",
+            "speaker_image": "app/images/speakers/juan-caicedo-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "title": "BUILDING GRAPHICAL COMMAND LINE APPLICATIONS IN JAVASCRIPT",
+        "start_time": "12:00",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "It is not uncommon for people to think of the command line as an ancient, impenetrable and impossible interface to get any real work done. Even if you are a veteran vim user, the thought of actually creating anything other than a single line, argument based interface will probably seem like something out of reach for almost anyone. Not so! Using nothing but JavaScript, you can create rich, compelling, command line interfaces that leverage keyboard and mouse input, and more!"
+        ],
+        "speakers": [
+          {
+            "speaker_name": "PATRICK KETTNER",
+            "speaker_image": "app/images/speakers/patrik-kettner-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "title": "LUNCH",
+        "start_time": "12:30",
+        "talk_type": "global"
+      },
+      {
+        "id": 31,
+        "title": "LIGHTNING TALKS",
+        "start_time": "14:00",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH - SPANISH",
+        "speakers": []
+      },
+      {
+        "id": 32,
+        "title": "SCIENTIFIC COMPUTING WITH JAVASCRIPT",
+        "start_time": "14:30",
+        "talk_type": "talk",
+        "talk_language": "SPANISH",
+        "talk_description": [
+          "In this presentation I will tell mi experience using Javascript and other web technologies (like HTTP, HTML, webworkers, etc) in my research projects. I will compare the language and the platform with other options, dispelling myths and showing the advantages of JS in this area."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "LEONARDO VAL",
+            "speaker_image": "app/images/speakers/leonardo-val-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "SCIENTIFIC COMPUTING WITH JAVASCRIPT",
+        "start_time": "14:30",
+        "talk_type": "workshop",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Many companies are turning to Electron.js to build amazing desktop applictions that run on Windows, Mac, and Linux using familiar Web technologies. In this hands-on workshop we will learn the fundamentals of building desktop applications with Electron.js. Our goal is to walk away with a solid framework for building and deploying your own applications!",
+          "Requirements: Requirements for this workshop are: a laptop with the latest stable Node.js, and Visual Studio Code. You can use any good editor for JavaScript, but we will be taking advantage of the debugging features of Visual Studio Code."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "DAVID NEAL",
+            "speaker_image": "app/images/speakers/david-neal-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "title": "COFFEE BREAK",
+        "start_time": "15:00",
+        "talk_type": "global"
+      },
+      {
+        "id": 35,
+        "title": "ISOMORPHIC UNIVERSAL JAVASCRIPT",
+        "start_time": "15:20",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Yes, no, why, when, how...?",
+          "What is isomorphic (or universal) JavaScript? When would you use it, in what cases? We will talk about the meanings of \"isomorphic\" and \"universal\" JavaScript, see the case uses for it, and discuss ways (and problems) of actual implementations."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "FEDERICO KEREKI",
+            "speaker_image": "app/images/speakers/federico-kereki-sm.png"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "title": "CODE AT THE SPEED OF LIGHT: CONTENT DELIVERY NETWORKS FOR JAVASCRIPTERS",
+        "start_time": "15:50",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "No matter how blazing-fast V8 and other JavaScript virtual machines get, there’s one impossibile limit to overcome in JavaScript web applications: your code can’t travel faster than the speed of light. While the speed of light is very fast, it has very real performance implications for JavaScript developers building browser and mobile apps for a global audience. By having points of presence around the world, dozens of different content delivery networks (CDNs) push and other assets physically closer to users. This talk is an introduction and discussion of best practices to around using CDNs and how HTTP/2 is changing everything. Every JavaScript developer should be familiar with this critical piece of global infrastructure for building mobile and browser web applications.",
+          "This talk is structured around three areas:",
+          "1) An introduction to how CDNs work for JavaScript developers, including why they exist and the problem of latency in building modern, global web applications. 2) Best practices for caching static assets at edge locations, fingerprinting, the costs of using SSL and using CDNs in front of dynamic API endpoints. 3) Measuring performance and handling (and monitoring for) CDN failure."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "CLAY SMITH",
+            "speaker_image": "app/images/speakers/clay-smith-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "title": "PERFORMANCE TESTING AND OPTIMIZATION",
+        "start_time": "15:50",
+        "talk_type": "workshop",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "In this hands-on workshop attendees will learn how to take a web site or application, measure its loading time, identify performance issues and apply a wide array of modern performance optimization tools and techniques.",
+          "In the first part of this workshop we will start take a well-known live site and run a set of performance benchmarking tools. Attendees will be encouraged to follow along and together we will construct a list of potential performance issues.",
+          "In the second part we will take a different site constructed specifically for this workshop (hosted in GitHub) and we will apply different performance optimization techniques. Attendees will be able to download the site and apply these techniques themselves.",
+          "The only requirements to follow along are a laptop and a browser as all the performance optimization tools are available online and can be executed in-browser. If attendees do not have a laptop they will still be able to follow along as the instructor will implement each step himself, or work in pairs.",
+          "The full list of performance optimization tools and techniques to be presented can be found in the notes below."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "DIEGO CARDOZO",
+            "speaker_image": "app/images/speakers/diego-cardozo-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "title": "COFFEE BREAK",
+        "start_time": "16:20",
+        "talk_type": "global"
+      },
+      {
+        "id": 39,
+        "title": "WEB COMPATIBLE JAVASCRIPT AND CSS",
+        "start_time": "16:40",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "What does it mean for JavaScript and CSS to be—or not to be—compatible with the web?",
+          "Is it possible for some code written last week to continue to work in a web browser 10 years from now? Likewise, could existing code in the wild complicate adding JavaScript language features (i.e., ES2015+) or fixing mistakes in web APIs?",
+          "In this talk I'll discuss some of the issues that arise when browser vendors attempt to cleanup the messy platform we call the web, either by adding new language features and DOM APIs or removing old ones (if such a thing is even possible)—while attempting to remain backwards compatible(-ish). I'll even talk about some controversial moves made by browsers to support non-standard (cough webkit prefixes) CSS and JS for compatibility reasons."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "MIKE TAYLOR",
+            "speaker_image": "app/images/speakers/mike-taylor-sm.png"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "title": "REACTJS: TIPS AND TRICKS TO CREATE ACCESSIBLE SVG COMPONENTS",
+        "start_time": "17:10",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Scaled Vector Graphics (SVG) is awesome because it has a small footprint, scales along with different resolutions, and looks great in retina displays. There are a lot of cool things you can do with React and SVG. One very common application is to use this combination to create your application's iconography. Another important scenario is to use SVG and React to create data visualization components like charts, meters, topology, and many others.",
+          "By default SVGs are not accessible. Accessibility in this context means receiving keyboard focus as well as screen readers being able to interact with your components.",
+          "In this 30-min talk I will provide tips and tricks to make sure your icons, graphs, and all your SVG-based components are accessible. The presentation will have live coding to illustrate the accessibility limitations of SVG."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "ALAN SOUZA",
+            "speaker_image": "app/images/speakers/alan-souza-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "title": "COFFEE BREAK",
+        "start_time": "17:40",
+        "talk_type": "global"
+      },
+      {
+        "id": 42,
+        "title": "NODE.JS RELEASES, HOW DO THEY WORK?",
+        "start_time": "18:00",
+        "talk_type": "talk",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Node.js is growing up, and with that comes the responsibility of proper legacy support. As of Node.js Argon (v4.2.0) there is an official Long Term Support release cycle that lasts for 30 months!",
+          "How does a project moving at the pace of node maintain multiple release lines? How does a commit get backported? How is a release actually made?",
+          "You will learn all this and more on this weeks episode of \"Node.js Releases, how do they work?\"."
+        ],
+        "speakers": [
+          {
+            "speaker_name": "MYLES BORINS",
+            "speaker_image": "app/images/speakers/myles-borins-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "title": "HOW THE NODE PROJECT WORKS",
+        "start_time": "18:30",
+        "talk_type": "keynote",
+        "talk_language": "ENGLISH",
+        "talk_description": [
+          "Since the Node.js Foundation became the new home for the core Node.js project, it has been run with a very different governance and contribution model and a new culture of openness. The core team strives to be welcoming to new contributors and regularly adds to its own ranks. Due to historical barriers and the complexities of a very active core community, many find the idea of contributing daunting. Rod will explain how the project works, including its various working groups, teams, how decisions are made, how to find a place to contribute and how you can improve your chances of successfully making an impact on Node.js core."
+        ],
+        "talk_bg_image": "app/images/schedule/rod-vagg-bg.jpg",
+        "speakers": [
+          {
+            "speaker_name": "ROD VAGG",
+            "speaker_image": "app/images/speakers/rod-vagg-sm.jpg"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "title": "CLOSE",
+        "start_time": "19:10",
+        "talk_type": "global"
+      },
+      {
+        "id": 45,
+        "title": "GOODBYE PARTY!",
+        "start_time": "19:25",
+        "talk_type": "global"
+      }
+    ]
+  }
+]

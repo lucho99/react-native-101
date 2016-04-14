@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "company_name": "SOPHILABS",
+    "company_description": [
+      "Sophilabs helps companies build and grow their products by delivering valuable software on top of Python and Node.js. They are working on cool projects for customers in New York, San Francisco and London from their headquarters in Montevideo and business development office in NYC. They have built web and mobile apps for different industries following the DOTADIW principle (Do One Thing And Do It Well), achieving highly connected and scalable solutions.",
+      "They are now looking for talented people with passion for software development who help bring Sophilabs to new levels. Check their careers."
+    ],
+    "company_site": "https://sophilabs.co/",
+    "company_logo": "./app/images/sponsors/sophilabs.png",
+    "company_twitter": {
+      "name": "@sophilabs",
+      "url": "https://twitter.com/sophilabs"
+    }
+  },
+  {
+    "id": 2,
+    "company_name": "WYEWORKS",
+    "company_description": [
+      "WyeWorks es una empresa que desarrolla aplicaciones web para clientes de Silicon Valley.",
+      "Creamos la empresa imaginando cómo sería el lugar ideal donde nos gustaría trabajar. Buscábamos el mejor ambiente, gente con buena onda que disfruta lo que hace. Al mismo tiempo queríamos un lugar donde se aspire a la excelencia y al trabajo de calidad.",
+      "La buena imagen que dejamos en nuestros clientes (entre ellos Google) y estar en el Core Team de Ruby on Rails nos dio una red de contactos que nos permite hoy acceder a proyectos de primera línea."
+    ],
+    "company_site": "http://wyeworks.com/",
+    "company_logo": "app/images/sponsors/wyeworks.png",
+    "company_twitter": {
+      "name": "@wyeworks",
+      "url": "https://twitter.com/wyeworks"
+    }
+  },
+  {
+    "id": 3,
+    "company_name": "TOPTAL",
+    "company_description": [
+      "Founded in 2010, Toptal is one the fastest-growing and most innovative companies to emerge from Silicon Valley. With backing from Andreessen Horowitz, Silicon Valley’s famed venture capital firm, Adam D’Angelo, founder of Quora, Ryan Rockefeller, and other investors, Toptal today connects thousands of elite freelance software engineers and designers from around the world to over 2,000 blue chip enterprises, such as J.P. Morgan and Pfizer, tech companies such as Airbnb and Zendesk, and numerous startups to provide world-class solutio"
+    ],
+    "company_site": "https://www.toptal.com/",
+    "company_logo": "app/images/sponsors/toptal.png",
+    "company_twitter": {
+      "name": "@toptalllc",
+      "url": "https://twitter.com/toptalllc"
+    }
+  },
+  {
+    "id": 4,
+    "company_name": "TOPTIERLABS",
+    "company_description": [
+      "TopTier Labs es una empresa de desarrollo de software con oficinas en Montevideo, Los Ángeles y Nueva York. Está integrada por más de 40 personas actualmente entre desarrolladores/as, diseñadoras, project manager, business developers, comprometidos/as en generar un ambiente de innovación en el cual se asegure el éxito de las ideas de nuestros clientes. Nos caracterizamos por generar productos de alta calidad, que permiten el ingreso a mercados competitivos, con una clara orientación hacia la satisfacción de clientes, reconociendo que esto sólo es posible a través de la mejora de las prácticas de cada una de las personas que integran TopTier. Entendemos que el crecimiento de la empresa debe ser integral, es decir que no sólo debe generarse un aumento de clientes y ampliación de mercado, sino que es innegable potenciar las competencias de quienes trabajan con nosotros. De esta forma, se ha apuntado a alcanzar una mayor especialización técnica, mejorando aspectos de formación técnicos y no técnicos, como ser: la comunicación en inglés, que permita fluidez con clientes en el exterior, formación en nuevas tecnologías y metodologías ágiles, formación en liderazgo, etc."
+    ],
+    "company_site": "http://toptierlabs.com/",
+    "company_logo": "app/images/sponsors/toptierlabs.png",
+    "company_twitter": {
+      "name": "@toptierlabs",
+      "url": "https://twitter.com/toptierlabs"
+    }
+  },
+  {
+    "id": 5,
+    "company_name": "URUGUAY XXI",
+    "company_description": [
+      "El portal Smart Talent es un sitio especializado en Servicios Globales que busca facilitar el empleo en el sector, especialmente en Servicios Corporativos, Tecnologías de la Información, Farmacéutica y Salud y Arquitectura e Ingeniería.",
+      "Smart Talent es un desarrollo del Instituto Uruguay XXI a través del Programa de Apoyo a los Servicios Globales de Exportación con apoyo financiero del Banco Interamericano de Desarrollo (BID)."
+    ],
+    "company_site": "http://www.smarttalent.uy/",
+    "company_logo": "app/images/sponsors/uruguayxxi.png",
+    "company_twitter": {
+      "name": "@uruguayxxi",
+      "url": "https://twitter.com/uruguayxxi"
+    }
+  },
+  {
+    "id": 6,
+    "company_name": "MODELIT",
+    "company_description": [
+      "Modelit provides web application development & staffing services to small to mid-size businesses who wish to build or improve their systems.",
+      "We use cloud-based technology to develop innovative solutions. We adopt SCRUM as our primary agile methodology to manage the projects.",
+      "We build solid software with open source technology as AngularJS, Node.js, Java, & PHP and deploy them to popular cloud platform or infrastructure like Amazon Web Services or Heroku. We are also proud with our experience in developing with and deploying to Salesforce platform.",
+      "Our exceptional working environment encourages collaboration and teamwork, along with the training and tools to nourish perpetual learning and professional growth for our team.",
+      "We would love to have the opportunity to have you in our team. Please send us your resume to jobs@modelit.xyz or check out our career opportunities in our website."
+    ],
+    "company_site": "http://www.modelit.xyz/",
+    "company_logo": "app/images/sponsors/modelit.png",
+    "company_twitter": {
+      "name": "@modelitsoftware",
+      "url": "https://twitter.com/modelitsoftware"
+    }
+  },
+  {
+    "id": 7,
+    "company_name": "JAM3",
+    "company_description": [
+      "Jam3 is one of the world’s top digital production and design agencies. We specialize in creating highly advanced, experiential works in both the advertising and entertainment industries.",
+      "We’re a culture of dreamers and doers who prove that the two aren’t mutually exclusive. We’re happiest when we’re innovating, and fanatically dedicated to our craft.",
+      "We’re known for challenging the way digital stories are told. Our work often incorporates everything from live action, animation and sound design to coded particle systems and complex 3D engines.",
+      "At Jam3, everything is informed by our three core principles: story, craft and technology."
+    ],
+    "company_site": "http://www.jam3.com/",
+    "company_logo": "app/images/sponsors/jam3.png",
+    "company_twitter": {
+      "name": "@jam3",
+      "url": "https://twitter.com/jam3"
+    }
+  },
+  {
+    "id": 8,
+    "company_name": "AXIOMZEN",
+    "company_description": [
+      "Axiom Zen es un galardonado estudio de innovación especializado en crear compañías emblemáticas. Nuestro equipo de más de 50 desarrolladores, diseñadores y fundadores suman sus experiencias, en startups de rápido crecimiento y compañías como Google, Apple y SpaceX, para crear productos a la vanguardia de la tecnología. Somos una startup que construye otras startups desde nuestras oficinas en San Francisco, Vancouver y Santiago."
+    ],
+    "company_site": "https://www.axiomzen.co/",
+    "company_logo": "app/images/sponsors/axiomzen.png",
+    "company_twitter": {
+      "name": "@AxiomZenChile",
+      "url": "https://twitter.com/AxiomZenChile"
+    }
+  },
+  {
+    "id": 9,
+    "company_name": "STRONGLOOP",
+    "company_description": [
+      "At StrongLoop, an IBM company, we don’t just build products for Node, we help create it."
+    ],
+    "company_site": "https://strongloop.com/",
+    "company_logo": "app/images/sponsors/strongloop.png",
+    "company_twitter": {
+      "name": "@StrongLoop",
+      "url": "https://twitter.com/StrongLoop"
+    }
+  },
+  {
+    "id": 10,
+    "company_name": "NEWRELIC",
+    "company_description": [
+      "New Relic gives you deep performance analytics for every part of your software environment. You can easily view and analyze massive amounts of data, and gain actionable insights in real-time. For your apps. For your users. For your business."
+    ],
+    "company_site": "https://newrelic.com/",
+    "company_logo": "app/images/sponsors/newrelic.png",
+    "company_twitter": {
+      "name": "@newrelic",
+      "url": "https://twitter.com/newrelic"
+    }
+  },
+  {
+    "id": 11,
+    "company_name": "OKTANA",
+    "company_description": [
+      "The focus of Oktana is to build software for cloud environment in Apex and Visualforce for Salesforce.com as well as NodeJS and Ruby on Rails for Heroku plus a wide array of custom projects to execute on your business needs.",
+      "We have a passion for writing solid code and we translate that into your most visible achievements. We work with clients around the world helping them deliver some of the most cutting edge applications for internal use or as widely available product offerings for the enterprise or your customer use.",
+      "We are in continuous expansions and looking for web developers. We want you in our team, send your resume to rrhh@oktana.io or through facebook: Oktana Uruguay."
+    ],
+    "company_site": "http://www.oktana.io/",
+    "company_logo": "app/images/sponsors/oktana.png",
+    "company_twitter": {
+      "name": "@OktanaUY",
+      "url": "https://twitter.com/OktanaUY"
+    }
+  },
+  {
+    "id": 12,
+    "company_name": "MICROSOFT EDGE",
+    "company_description": [
+      "Microsoft Edge Dev makes it easy to test and debug in Microsoft Edge, even on a Mac. Use free VMs to test against recent versions of Edge and Internet Explorer, or Remote Edge to test on Macs and Linux with no downloads or overhead. Check our roadmap on Platform Status, search and file bugs on our new Platform Issues bug tracker, and connect directly with the team - we're @MSEdgeDev on Twitter."
+    ],
+    "company_site": "http://dev.microsoftedge.com/",
+    "company_logo": "app/images/sponsors/microsoftedge.png",
+    "company_twitter": {
+      "name": "@MSEdgeDev",
+      "url": "https://twitter.com/MSEdgeDev"
+    }
+  },
+  {
+    "id": 13,
+    "company_name": "CODIGODELSUR",
+    "company_description": [
+      "CodigoDelSur is the best Mobile App Development Company for Silicon Valley - New York - Los Angeles. We are based in Uruguay and work for startups"
+    ],
+    "company_site": "http://codigodelsur.com/",
+    "company_logo": "app/images/sponsors/codigodelsur.png",
+    "company_twitter": {
+      "name": "@codigodelsur",
+      "url": "https://twitter.com/codigodelsur"
+    }
+  },
+  {
+    "id": 14,
+    "company_name": "TRYOLABS",
+    "company_description": [],
+    "company_site": "http://www.tryolabs.com/",
+    "company_logo": "app/images/sponsors/tryolabs.png",
+    "company_twitter": {
+      "name": "@tryolabs",
+      "url": "https://twitter.com/tryolabs"
+    }
+  },
+  {
+    "id": 15,
+    "company_name": "HEWLETT PACKARD ENTERPRISE",
+    "company_description": [
+      "We Are In the Acceleration Business We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives.",
+      "Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed."
+    ],
+    "company_site": "https://www.hpe.com/",
+    "company_logo": "app/images/sponsors/hpe.png",
+    "company_twitter": {
+      "name": "@hpe",
+      "url": "https://twitter.com/hpe"
+    }
+  },
+  {
+    "id": 16,
+    "company_name": "IBM",
+    "company_description": [
+      "We’ve developed a lot of software in IBM’s 100+ year history, from punch cards to core transaction processing to cognitive computing. IBM Bluemix is our open-technology cloud platform for developing and deploying web and mobile applications. Developers can quickly build, deploy, run, and manage applications with best of class services and infrastructure components from IBM and third party providers."
+    ],
+    "company_site": "https://www.ibm.com/",
+    "company_logo": "app/images/sponsors/ibm.png",
+    "company_twitter": {
+      "name": "@ibm",
+      "url": "https://twitter.com/ibm"
+    }
+  },
+  {
+    "id": 17,
+    "company_name": "MOZILLA",
+    "company_description": [
+      "At Mozilla, we’re a global community of technologists, thinkers and builders working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.",
+      "Firefox Developer Edition brings your core dev tools together with some powerful new ones that will extend your ability to work across multiple platforms from one place. It’s everything you’re used to, only better. And only from Firefox."
+    ],
+    "company_site": "https://mozilla.org/",
+    "company_logo": "app/images/sponsors/mozilla.png",
+    "company_twitter": {
+      "name": "@mozilla",
+      "url": "https://twitter.com/mozilla"
+    }
+  }
+]
