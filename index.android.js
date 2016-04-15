@@ -16,13 +16,15 @@ import React, {
   DrawerLayoutAndroid
 } from 'react-native';
 
+import Schedule from './app/js/scenes/Schedule';
+
 class JSConfUY extends Component {
 
   constructor() {
     super();
 
     this.state = {
-      route: 'Default'
+      route: 'Schedule'
     }
 
     this._toggleMenu = this._toggleMenu.bind(this);
@@ -55,14 +57,8 @@ class JSConfUY extends Component {
 
   _renderScene(route, navigator) {
     switch (route.id) {
-      case 'Default':
-        return (
-          <View style={styles.sceneContainer}>
-            <Text style={styles.bold}>JSConfUY 2016</Text>
-            <Text>WORKSHOP</Text>
-            <Text>React Native 101</Text>
-          </View>
-        );
+      case 'Schedule':
+        return <Schedule navigator={navigator} />;
       default:
         return null;
     }
@@ -119,8 +115,8 @@ class JSConfUY extends Component {
       <View style={{flex: 1, backgroundColor: '#172636'}}>
         <Image resizeMode="contain" style={styles.drawerLogo}
           source={require('./app/images/jsconfuy-logo.png')} />
-        <TouchableHighlight onPress={() => this._navigateToScene('Default')}>
-          <Text style={buttonStyle}>Default</Text>
+        <TouchableHighlight onPress={() => this._navigateToScene('Schedule')}>
+          <Text style={buttonStyle}>Schedule</Text>
         </TouchableHighlight>
       </View>
     );
