@@ -136,4 +136,6 @@ dependencies {
     compile project(':react-native-maps')
     compile 'com.google.android.gms:play-services-base:8.4.0'
     compile 'com.google.android.gms:play-services-maps:8.4.0'
+
+    compile project(':react-native-maps')
 }

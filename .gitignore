@@ -1,4 +1,6 @@
 node_modules
 ios/build
+ios/JSConfUY.xcodeproj/project.xcworkspace
 android/app/build/
 android/build/
+android/.gradle/
