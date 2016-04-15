@@ -18,6 +18,7 @@ import React, {
 
 import Schedule from './app/js/scenes/Schedule';
 import Speakers from './app/js/scenes/Speakers';
+import SpeakerDetail from './app/js/scenes/SpeakerDetail';
 
 class JSConfUY extends Component {
 
@@ -62,6 +63,8 @@ class JSConfUY extends Component {
         return <Schedule navigator={navigator} />;
       case 'Speakers':
         return <Speakers navigator={navigator} />;
+      case 'SpeakerDetail':
+        return <SpeakerDetail navigator={navigator} speaker={route.speaker} />;
       default:
         return null;
     }
@@ -74,7 +77,17 @@ class JSConfUY extends Component {
   _getNavigationBar() {
     let self = this;
     let NavigationBarRouteMapper = {
-      LeftButton() {
+      LeftButton(route, navigator) {
+        if (route.id === 'SpeakerDetail' || route.id === 'SponsorDetail') {
+          return (
+            <View style={styles.navigationBarLeft}>
+              <TouchableHighlight onPress={_ => navigator.pop()}>
+                <Image resizeMode="contain" style={styles.navigationBarLeftIcon}
+                  source={require('./app/images/ic_arrow-back.png')} />
+              </TouchableHighlight>
+            </View>
+          );
+        }
         return (
           <View style={styles.navigationBarLeft}>
             <TouchableHighlight onPress={self._toggleMenu}>
