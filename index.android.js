@@ -19,6 +19,7 @@ import React, {
 import Schedule from './app/js/scenes/Schedule';
 import Speakers from './app/js/scenes/Speakers';
 import SpeakerDetail from './app/js/scenes/SpeakerDetail';
+import Sponsors from './app/js/scenes/Sponsors';
 
 class JSConfUY extends Component {
 
@@ -65,6 +66,8 @@ class JSConfUY extends Component {
         return <Speakers navigator={navigator} />;
       case 'SpeakerDetail':
         return <SpeakerDetail navigator={navigator} speaker={route.speaker} />;
+      case 'Sponsors':
+        return <Sponsors navigator={Sponsors} />;
       default:
         return null;
     }
@@ -136,6 +139,9 @@ class JSConfUY extends Component {
         </TouchableHighlight>
         <TouchableHighlight onPress={() => this._navigateToScene('Speakers')}>
           <Text style={buttonStyle}>Speakers</Text>
+        </TouchableHighlight>
+        <TouchableHighlight onPress={() => this._navigateToScene('Sponsors')}>
+          <Text style={buttonStyle}>Sponsors</Text>
         </TouchableHighlight>
       </View>
     );
