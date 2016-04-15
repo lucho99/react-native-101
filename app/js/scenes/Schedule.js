@@ -13,6 +13,7 @@ import React, {
 } from 'react-native';
 
 import Dimensions from 'Dimensions';
+import ModalCustom from '../components/ModalCustom';
 
 var SCHEDULE = require('../../data/schedule.json');
 
@@ -23,8 +24,13 @@ class Schedule extends Component {
 
     this.state = {
       scrollViewHeight: Dimensions.get('window').height || 0,
-      schedule: []
+      schedule: [],
+      modalVisible: false,
+      modalContent: void 0
     };
+
+    this._showModal = this._showModal.bind(this);
+    this._closeModal = this._closeModal.bind(this);
   }
 
   componentDidMount() {
@@ -60,6 +66,10 @@ class Schedule extends Component {
                 );
               })}
             </View>
+            <ModalCustom
+              visible={this.state.modalVisible}
+              content={this.state.modalContent}
+              closeModal={this._closeModal} />
           </View>
         </ScrollView>
       </View>
@@ -95,7 +105,8 @@ class Schedule extends Component {
       return (
         <View key={t.id} style={styles.talkContainer}>
           <Text style={[styles.talkStartTime, styles.leftSide]}>{t.start_time}</Text>
-          <TouchableHighlight style={styles.rightSide} underlayColor="#f0f0f0">
+          <TouchableHighlight style={styles.rightSide} underlayColor="#f0f0f0"
+            onPress={_ => this._showModal(t)}>
             <View style={[styles.talk, talkStyle]}>
               {talk}
             </View>
@@ -149,6 +160,22 @@ class Schedule extends Component {
         })}
       </View>
     );
+  }
+
+  _showModal(talk) {
+    if (talk.talk_description) {
+      this.setState({
+        modalContent: talk,
+        modalVisible: true
+      });
+    }
+  }
+
+  _closeModal() {
+    this.setState({
+      modalContent: void 0,
+      modalVisible: false
+    });
   }
 
 }
