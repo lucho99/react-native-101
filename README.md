@@ -43,3 +43,25 @@ react-native run-{platform}
 ```
 
 ***Note:*** if running android platform be sure to have the emulator running or the device connected
+
+##Step 2 - Code!
+### - First let's start with the navigation (#00d41d7)
+
+### - Now it's time for the sidemenu (#94583b1)
+
+### - Creating Schedule Scene (#100644)
+
+### - Adding modal to show talk description in Schedule scene (#9958a4d)
+
+### - Speakers scene (#271dbce)
+
+### - Speaker Detail Scene - Passing parameters (#5a9a621)
+
+### - Sponsors scene (#9742482)
+
+### - Sponsor Detail scene (#a8cf4fd)
+
+### - Code of Conduct scene (#1ec347e)
+
+### - Venue scene (#8d08e3a)
+***Note:*** react-native-maps installation: https://github.com/lelandrichardson/react-native-maps/blob/master/docs/installation.md
