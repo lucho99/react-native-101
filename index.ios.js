@@ -21,6 +21,7 @@ import Schedule from './app/js/scenes/Schedule';
 import Speakers from './app/js/scenes/Speakers';
 import SpeakerDetail from './app/js/scenes/SpeakerDetail';
 import Sponsors from './app/js/scenes/Sponsors';
+import SponsorDetail from './app/js/scenes/SponsorDetail';
 
 class JSConfUY extends Component {
 
@@ -77,6 +78,8 @@ class JSConfUY extends Component {
         return <SpeakerDetail navigator={navigator} speaker={route.speaker} />;
       case 'Sponsors':
         return <Sponsors navigator={navigator} />;
+      case 'SponsorDetail':
+        return <SponsorDetail navigator={navigator} sponsor={route.sponsor} />;
       default:
         return null;
     }

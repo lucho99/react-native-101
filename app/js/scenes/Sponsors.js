@@ -75,7 +75,10 @@ class Sponsors extends Component {
       margins.marginBottom = 0;
     }
     return (
-      <TouchableHighlight underlayColor="#f0f0f0">
+      <TouchableHighlight underlayColor="#f0f0f0" onPress={_ => this.props.navigator.push({
+        id: 'SponsorDetail',
+        sponsor: sponsor
+      })}>
         <View style={[styles.listViewItem, margins]}>
           <Image resizeMode="contain" style={styles.companyLogo}
             source={{uri: sponsor.company_logo, isStatic: true}} />
