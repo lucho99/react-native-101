@@ -17,6 +17,7 @@ import React, {
 } from 'react-native';
 
 import Schedule from './app/js/scenes/Schedule';
+import Speakers from './app/js/scenes/Speakers';
 
 class JSConfUY extends Component {
 
@@ -59,6 +60,8 @@ class JSConfUY extends Component {
     switch (route.id) {
       case 'Schedule':
         return <Schedule navigator={navigator} />;
+      case 'Speakers':
+        return <Speakers navigator={navigator} />;
       default:
         return null;
     }
@@ -117,6 +120,9 @@ class JSConfUY extends Component {
           source={require('./app/images/jsconfuy-logo.png')} />
         <TouchableHighlight onPress={() => this._navigateToScene('Schedule')}>
           <Text style={buttonStyle}>Schedule</Text>
+        </TouchableHighlight>
+        <TouchableHighlight onPress={() => this._navigateToScene('Speakers')}>
+          <Text style={buttonStyle}>Speakers</Text>
         </TouchableHighlight>
       </View>
     );
